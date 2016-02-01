@@ -1,12 +1,10 @@
-Digi-Bornes
+Remi Website
 ========
-
-Digi-Bornes TV Application
 
 Presentation
 -----------
 
-Digi-Bornes is a Single Page Web Application.
+My website is a Single Page Web Application.
 
 Technologies
 ------------
@@ -14,7 +12,7 @@ The Client WebApp use several technologies:
 
 * Angular.js - https://angularjs.org/
 * AngularUI - http://angular-ui.github.io/
-* Boostrap - http://getbootstrap.com/
+* MaterializeCSS - http://materializecss.com/
 * Underscore - http://underscorejs.org/
 * Toastr - http://codeseven.github.io/toastr/
 * jQuery - http://jquery.com/
@@ -30,7 +28,6 @@ Before you install and launch the app, you need some prerequisite:
 
 * Bower (A package manager for the web)
 * Brunch (An HTML5 build tool)
-* Tsd (TypeScript Definition manager for DefinitelyTyped)
 * Vagrant (Configure reproducible and portable work environments)
 * VirtualBox (Virtualization)
 
@@ -44,21 +41,10 @@ $ npm install -g bower
 $ npm install -g brunch
 ```
 
-```sh
-$ npm install -g tsd
-```
-
 You can now install Vagrant and VirtualBox, the installers can be downloaded on their websites:
 
 * Vagrant: https://www.vagrantup.com/
 * VirtualBox: https://www.virtualbox.org/
-
-Once vagrant and VirtualBox are intalled on your development machine, you need to install the vagrant-proxyconf and vagrant-hosts plugins with the following command-line:
-
-```sh
-$ vagrant plugin install vagrant-proxyconf
-$ vagrant plugin install vagrant-hosts
-```
 
 Installation
 ------------
@@ -66,7 +52,7 @@ Installation
 Once you have all the prerequisite, get the source code with Git cloning:
 
 ```sh
-$ git clone http://alm.sncf.fr/sources/pmm/digi-bornes.git
+$ git clone https://github.com/privetr/siteRemi.git
 ```
 
 Get into source code `./front-end` directory 
@@ -84,12 +70,6 @@ Next, this will install all front-end dependencies:
 
 ```sh
 $ bower install
-```
-
-Next, this will install all the typings definition file for dependencies
-
-```sh
-$ tsd reinstall -s
 ```
 
 The next step is about transpiling, concatenating and source-mapping resources intended for use in the browser by the UIs:
@@ -126,14 +106,7 @@ $ brunch w -e development --server
 
 Now you should be able to access the application at `http://localhost:3333/index.html`
 
-To-Do
------
-
-* Unit tests of parts of the engine with Mocha
-* Integration tests of the whole stack with Mocha + Karma
-* CI integration
-
 Author
 ------
 
-[Jerry Chanut](mailto:jerry.chanut@soprasteria.com)
+[Rémi PRIVET](mailto:remi.privet@gamil.com)

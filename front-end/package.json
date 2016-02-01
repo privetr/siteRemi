@@ -1,0 +1,25 @@
+{
+  "name": "SiteRemi",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "privet.remi@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "appcache-brunch": "^1.7.1",
+    "auto-reload-brunch": "^1.7.8",
+    "clean-css-brunch": "^1.7.2",
+    "coffee-script-brunch": "^1.8.1",
+    "constangular-brunch": "^0.1.4",
+    "css-brunch": "^1.7.0",
+    "git-digest-brunch": "^1.0.3",
+    "javascript-brunch": "^1.7.1",
+    "jscs-brunch": "^1.0.2",
+    "jshint-brunch": "^1.8.0",
+    "ng-annotate-uglify-js-brunch": "^1.8.0",
+    "sass-brunch": "^1.8.10",
+    "version-brunch": "^1.0.1"
+  }
+}

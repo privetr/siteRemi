@@ -1,0 +1,148 @@
+/* NEW CSS */
+$blueDark: #01579b;
+
+.color-footer{
+    background-color: $blueDark !important;   
+}
+
+
+/* OLD CSS */
+
+.pointer-hover { 
+    cursor: pointer; 
+}
+
+
+.white {
+  color: #FFFFFF;
+}
+
+.bluelight {
+  color: #03a9f4;
+}
+
+.blue {
+  color: #01579b;
+}
+
+.amber {
+  color: #ffc107;
+}
+
+.grey{
+  color:#616161;
+}
+
+.pink{
+  color:#c2185b;
+}
+
+.orange{
+  color:#e65100;
+}
+
+
+.blue-background-rp {
+  background-color: #01579b;
+}
+
+.bluelight-background-rp {
+  background-color: #03a9f4;
+}
+
+.pink-background-rp {
+  background-color: #c2185b;
+}
+
+.amber-background-rp {
+  background-color: #ffc107;
+}
+
+.orange-background-rp{
+  background-color: #e65100;
+}
+.navbar-default {
+    border-color: #0277bd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+#slide1 {
+   background: url('../../images/photos/DSC02859-2.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide2 {
+   background: url('../../images/photos/IMG_9810-2.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide3 {
+   background: url('../../images/photos/IMG_9194-2.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide4 {
+   background: url('../../images/photos/IMG_8502-2.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide5 {
+   background: url('../../images/photos/IMG_8844-2.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide6 {
+   background: url('../../images/photos/IMG_8864-2.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide7 {
+   background: url('../../images/photos/IMG_9161.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide8 {
+   background: url('../../images/photos/IMG_9684-2.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide9 {
+   background: url('../../images/photos/IMG_2579.JPG') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide10 {
+   background: url('../../images/photos/cassis.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide11 {
+   background: url('../../images/photos/Magny-cours.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide12 {
+   background: url('../../images/photos/photos_104.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide13 {
+   background: url('../../images/photos/rallye.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide14 {
+   background: url('../../images/photos/IMG_2045.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+#slide15 {
+   background: url('../../images/photos/IMG_1889.jpg') center 0 no-repeat fixed;
+   background-size: cover;
+}
+
+#slide1, #slide2, #slide3, #slide4, #slide5, #slide6, #slide7, 
+#slide8, #slide9, #slide10, #slide11, #slide12, #slide13, #slide14, #slide15 {
+    height: 1000px;
+    padding-top: 100px;
+}
+
+.slide-photo-text-rp{
+	width: 300px;
+	border: 1px #888888 solid;
+	background-color: #ffffff;
+	padding: 13px;
+	background-clip: padding-box;
+	border-left-color: #ffc107;
+	border-width: 1px 1px 1px 5px;
+}
+
+.simple-shadow{
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) inset;
+}

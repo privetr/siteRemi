@@ -1,0 +1,5 @@
+development:
+  reportStateChanges: true
+  version: '{!major!}.{!minor!}.{!maintenance!}.{!build!}'
+  debug: true
+  stub: false

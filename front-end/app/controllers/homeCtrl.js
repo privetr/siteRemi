@@ -18,5 +18,9 @@
         /* jshint validthis: true */
         var vm = this;
 
+        vm.toggleMenu = function() {
+            $('.button-collapse').sideNav();
+        };
+
     }
 })();

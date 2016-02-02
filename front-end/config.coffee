@@ -7,14 +7,14 @@ exports.config =
   conventions:
     assets: [
         /^app[\\/]assets[\\/]/,
-        /^bower_components[\\/]bootstrap-sass[\\/]assets[\\/]fonts[\\/]/
+        /^bower_components[\\/]materialize[\\/]dist[\\/]font[\\/]/
       ]
   overrides:
     re7:
       optimize: true
       sourceMaps: false
   notifications: ['info', 'warn', 'error']
-  notificationsTitle: 'CaaS#M'
+  notificationsTitle: 'Site de Rémi PRIVET'
   plugins:
     cleancss:
       restructuring: false
@@ -115,7 +115,7 @@ exports.config =
       order:
         before: [
           'bower_components/jquery/dist/jquery.js',
-          'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js'
+          'bower_components/materialize/dist/js/materialize.js'
         ]
     stylesheets:
       joinTo:

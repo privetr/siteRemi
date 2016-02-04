@@ -17,6 +17,8 @@
     function careerCtrl($q, digiLookUp, $scope) {
         /* jshint validthis: true */
         var vm = this;
+        vm.displayEsisar = false;
+        $('.carousel').carousel();
 
     }
 })();

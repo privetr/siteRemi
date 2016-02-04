@@ -11,12 +11,13 @@
         .module('SiteRemi')
         .controller('photosCtrl', photosCtrl);
 
-    photosCtrl.$inject = ['$q', 'digiLookUp', '$scope'];
+    photosCtrl.$inject = [];
 
     /* @ngInject */
-    function photosCtrl($q, digiLookUp, $scope) {
+    function photosCtrl() {
         /* jshint validthis: true */
         var vm = this;
+        vm.display = true;
 
     }
 })();

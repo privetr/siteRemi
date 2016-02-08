@@ -95,4 +95,18 @@
         appStart.start();
     }]);
 
+    app.factory('Page', function() {
+        var title = 'Site de Rémi Privet';
+        var description = 'Site de Rémi Privet, découvrez mes applications Android et mes développements logiciels';
+        var keywords = 'Rémi Privet, ingénieur, informatique, parcours, applications, photos';
+        return {
+            title: function() { return title; },
+            setTitle: function(newTitle) { title = newTitle; },
+            description: function() { return description; },
+            setDescription: function(newDescription) { description = newDescription; },
+            keywords: function() { return keywords; },
+            setKeywords: function(newKeywords) { keywords = newKeywords; }
+        };
+    });
+
 })();

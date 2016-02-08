@@ -41,20 +41,25 @@
     <div class="row">
         <h2 class="orange-text text-accent-4">Mes Formations</h2>
         <ul class="collection">
-            <li class="collection-item avatar">
-                <img src="images/carriere/img_esisar.JPG" class="circle responsive-image">
+            <li class="collection-item">
+                <div class="row">
+                    <img src="images/carriere/img_esisar.JPG" class="responsive-image s2 m2 l2 col">
+                </div>
                 <span class="title"><h4>Diplôme d’ingénieur en Systèmes Avancés et Réseaux (Spécialité Informatique et Réseaux)</h4></span>
-                <p> 
-                    GRENOBLE-INP ESISAR, Valence 26000, France<br>
-                    <i class="material-icons">date_range</i> Septembre 2009 à Juillet 2014<br>
-                    <a class="waves-effect waves-light btn orange accent-4 white-text col l12 s12" 
-                        ng-click="vm.displayEsisar = !vm.displayEsisar" ng-if="!vm.displayEsisar" style="margin-bottom:20px">
-                        <i class="material-icons right">add</i> Voir détails
-                    </a>
-                    <a class="waves-effect waves-light btn orange accent-4 white-text col l12 s12" 
-                        ng-click="vm.displayEsisar = !vm.displayEsisar" ng-if="vm.displayEsisar">
-                        <i class="material-icons right">remove</i> Réduire
-                    </a>
+                <p class="center-align"> 
+                    <b>GRENOBLE-INP ESISAR, Valence 26000, France<br></b>
+                    <i class="material-icons small blue-text text-accent-4">date_range</i> 
+                    <em class="blue-text text-accent-4">Septembre 2009 à Juillet 2014</em><br>
+                    <div class="row" style="padding:0">
+                        <a class="waves-effect waves-light btn orange accent-4 white-text col l6 s6 offset-s3 offset-l3" 
+                            ng-click="vm.displayEsisar = !vm.displayEsisar" ng-if="!vm.displayEsisar">
+                            <i class="material-icons right">add</i> Voir détails
+                        </a>
+                        <a class="waves-effect waves-light btn orange accent-4 white-text col l6 s6 offset-s3 offset-l3"
+                            ng-click="vm.displayEsisar = !vm.displayEsisar" ng-if="vm.displayEsisar">
+                            <i class="material-icons right">remove</i> Réduire
+                        </a>
+                    </div>
                     <div class="collection" ng-if="vm.displayEsisar">
                         <a href="" class="collection-item"><b class="orange-text text-accent-4">Algorithmie avancée</b></a>
                         <a href="" class="collection-item"><b class="orange-text text-accent-4">Langages orientés objets (Java, Ada...)</b></a>
@@ -73,9 +78,243 @@
                     </div>
                 </p>
             </li>
-        </ul>
-        
+            <li class="collection-item">
+                <div class="row">
+                    <img src="images/carriere/img_iae.jpg" class="responsive-image s2 m2 l2 col">
+                </div>
+                <span class="title"><h4>Master 2 Management et Administration des entreprises</h4></span>
+                <p class="center-align"> 
+                    <b>IAE Grenoble, Grenoble 38000, France<br></b>
+                    <i class="material-icons small blue-text text-accent-4">date_range</i> 
+                    <em class="blue-text text-accent-4">Septembre 2013 à Février 2015</em><br>
+                    <div class="row" style="padding:0">
+                        <a class="waves-effect waves-light btn orange accent-4 white-text  col l6 s6 offset-s3 offset-l3" 
+                            ng-click="vm.displayIae = !vm.displayIae" ng-if="!vm.displayIae">
+                            <i class="material-icons right">add</i> Voir détails
+                        </a>
+                        <a class="waves-effect waves-light btn orange accent-4 white-text col l6 s6 offset-s3 offset-l3"
+                            ng-click="vm.displayIae = !vm.displayIae" ng-if="vm.displayIae">
+                            <i class="material-icons right">remove</i> Réduire
+                        </a>
+                    </div>
+                    <div class="collection" ng-if="vm.displayIae">
+                        <a href="" class="collection-item">Gestion de projet</a>
+                        <a href="" class="collection-item"><b class="orange-text text-accent-4">Management des équipes</b></a>
+                        <a href="" class="collection-item">Choix d’investissement</a>
+                        <a href="" class="collection-item"><b class="orange-text text-accent-4">Supply Chain Management</b></a>
+                        <a href="" class="collection-item"><b class="orange-text text-accent-4">Contrôle de gestion</b></a>
+                        <a href="" class="collection-item">Comptabilité financière</a>
+                        <a href="" class="collection-item">Achats</a>
+                        <a href="" class="collection-item"><b class="orange-text text-accent-4">Business plan</b></a>
+                        <a href="" class="collection-item"><b class="orange-text text-accent-4">Veille technologique</b></a>
+                        <a href="" class="collection-item">Communication</a>
+                    </div>
+                </p>
+            </li>
+            <li class="collection-item">
+                <span class="title"><h4>Baccalauréat Scientifique, option Mathématiques, Mention Bien</h4></span>
+                <p class="center-align"> 
+                    <b>Lycée Emile Loubet, Valence 26000, France<br></b>
+                    <i class="material-icons small blue-text text-accent-4">date_range</i> 
+                    <em class="blue-text text-accent-4">Juin 2009</em><br>
+                </p>
+            </li>
 
+
+        </ul>
+    </div>
+
+    <div class="row">
+        <h2 class="orange-text text-accent-4">Mes expériences professionnelles</h2>
+        <ul class="collection">
+            <li class="collection-item">
+                <div class="row">
+                    <img src="images/carriere/kapt.png" class="responsive-image s2 m2 l2 col">
+                </div>
+                <span class="title"><h4>Projet de fin d’études (stagiaire) : conception et développement du service touristique « 10 Things To See »</h4></span>
+                <p class="center-align"> 
+                    <b>KAPT, Alixan 26300, France<br></b>
+                    <a href="http://kapt.mobi/" target="_blank">www.kapt.mobi</a><br>
+                    <i class="material-icons small blue-text text-accent-4">date_range</i> 
+                    <em class="blue-text text-accent-4">Février 2014 à Juillet 2014</em><br>
+                    <div class="row" style="padding:0">
+                        <a class="waves-effect waves-light btn orange accent-4 white-text  col l6 s6 offset-s3 offset-l3" 
+                            ng-click="vm.displayKapt = !vm.displayKapt" ng-if="!vm.displayKapt">
+                            <i class="material-icons right">add</i> Voir détails
+                        </a>
+                        <a class="waves-effect waves-light btn orange accent-4 white-text col l6 s6 offset-s3 offset-l3"
+                            ng-click="vm.displayKapt = !vm.displayKapt" ng-if="vm.displayKapt">
+                            <i class="material-icons right">remove</i> Réduire
+                        </a>
+                    </div>
+                    <div class="row" ng-if="vm.displayKapt">
+                        <div class="col l12 m12 s12">
+                            <h4>Développement Web</h4>
+                            <a href="http://10thingstosee.com" target="_blank"><p>www.10thingstosee.com</p></a>
+                            <p>
+                                J'ai conçu et développé l'application web qui est compatible avec les supports PC, tablettes et mobiles.<br>
+                                Elle a été réalisée en utilisant le langage Python et s’appuie sur le 
+                                <b class="orange-text text-accent-4">Framework Django.</b><br>
+                                L’ergonomie et le design sont apportés par les technologies HTML5 et CSS3 
+                                (couplées au <b class="orange-text text-accent-4">Framework Bootstrap3</b>). Concernant cette partie graphique, 
+                                j'ai été épaulé pour la réaliser, et elle n'a cessé d'évoluer depuis ma fin de stage.<br>
+                                La base de données utilisée est de type PostgreSQL, et elle répertorie plus de 
+                                <b class="orange-text text-accent-4">10000 lieux à visiter 
+                                    (objets complexes contenant énormément d'informations).</b><br>
+                            </p>
+                            <p>
+                                <a href="http://10thingstosee.com" target="_blank">
+                                    <img src="images/carriere/10thingstosee.png" alt="Les 10 lieux à ne pas manquer autour de vous">
+                                </a>
+                            </p>
+                            <h4>Application Android</h4>
+                            <p>
+                                <a href="https://play.google.com/store/apps/details?id=com.kapt.tenthingstosee" target="_blank">
+                                    Découvrir l'application Android
+                                </a><br>
+                                J'ai également réalisé <b class="orange-text text-accent-4">la base de l'application mobile ANDROID :</b> <br>
+                                Création et utilisation de l'API pour récupérer les lieux, affichage de la liste de lieux, filtrage, 
+                                et visualisation d'une fiche.<br>
+                            </p>
+                            <h4>Objectif du service</h4>
+                            <p>
+                                Ce service permet aux utilisateurs de retrouver les 10 lieux à ne pas manquer aux alentours d’une destination, 
+                                et ce de manière non exhaustive, grâce <b class="orange-text text-accent-4">aux votes de la communauté.</b><br>
+                                Il leur est proposé des fiches complètes sur chaque lieu, et ils peuvent 
+                                <b class="orange-text text-accent-4">interagir 
+                                avec l’application</b> en ajoutant de nouveaux points d’intérêts, en votant, 
+                                ou en commentant des destinations.<br>
+                                Ils peuvent également se créer un guide de séjour personnalisé.<br>
+                                Toutes ces étapes sont soumises à un <b class="orange-text text-accent-4">système de modération</b> et 
+                                un <b class="orange-text text-accent-4">mécanisme 
+                                de détection des lieux en doublons</b> a également été mis en place.
+                            </p>
+                        </div>
+                    </div>
+                </p>
+            </li>
+
+            <li class="collection-item">
+                <div class="row">
+                    <img src="images/carriere/cpro.png" class="responsive-image s2 m2 l2 col">
+                </div>
+                <span class="title"><h4>Projet industriel : Développement d’une suite logicielle pour les Ressources Humaines</h4></span>
+                <p class="center-align"> 
+                    <b>C'PRO Groupe, Valence 26000, France<br></b>
+                    <a href="http://www.cpro.fr/" target="_blank">www.cpro.fr</a><br>
+                    <i class="material-icons small blue-text text-accent-4">date_range</i> 
+                    <em class="blue-text text-accent-4">Janvier 2013 à Juillet 2013</em><br>
+                    <div class="row" style="padding:0">
+                        <a class="waves-effect waves-light btn orange accent-4 white-text  col l6 s6 offset-s3 offset-l3" 
+                            ng-click="vm.displayCpro = !vm.displayCpro" ng-if="!vm.displayCpro">
+                            <i class="material-icons right">add</i> Voir détails
+                        </a>
+                        <a class="waves-effect waves-light btn orange accent-4 white-text col l6 s6 offset-s3 offset-l3"
+                            ng-click="vm.displayCpro = !vm.displayCpro" ng-if="vm.displayCpro">
+                            <i class="material-icons right">remove</i> Réduire
+                        </a>
+                    </div>
+                    <div class="row" ng-if="vm.displayCpro">
+                        <div class="col l12 m12 s12">
+                            <h4>Contexte</h4>
+                            <a href="http://10thingstosee.com" target="_blank"><p>www.10thingstosee.com</p></a>
+                            <p>
+                                Ce développement a été réalisé en collaboration avec l'entreprise <b class="orange-text text-accent-4">ATM</b>, 
+                                qui aujourd'hui s'occupe de la commercialisation du produit. 
+                                <b class="orange-text text-accent-4">C'PRO</b> était le premier client du logiciel.
+                            </p>
+				    		<p>
+                                Le <b class="orange-text text-accent-4">Projet industriel</b> a une durée de 6 mois : 
+                                il est accompli par une équipe de 3 élèves : donné par l'entreprise CPRO, 
+				                il a été réalisé au sein d'un laboratoire de travail à l'ESISAR.<br>
+                            </p>
+                            <h4>Développement Web</h4>
+                            <p>
+                                <a href="http://www.atm-consulting.fr/nos-offres/dynamic-rh/" target="_blank">Découvrez le logiciel DynamicRH</a>
+                                <br>
+                                Le but était de le <b class="orange-text text-accent-4">Développement d’une suite logicielle R.H.</b> 
+                                basée sur la solution <b class="orange-text text-accent-4">open-source Dolibarr</b><br>
+                                Nous avons réalisé <b class="orange-text text-accent-4">4 dossiers de spécification</b> 
+                                d'une quinzaine de pages chacun,
+                                correspondant aux 4 modules que nous devions développer :
+                                <p>
+                                    <ul>
+                                        <li>Module de Gestion des Notes de Frais avec règles dynamiques</li>
+                                        <li>Module de Gestion des Absences des salariés</li>
+                                        <li>Module de Gestion des ressources de l'entreprise, et de leurs disponiblités</li>
+                                        <li>Module de Gestion des compétences des salariés, et bilans individuels</li>
+                                    </ul>
+                                </p>
+                            </p>
+                            <h4>Gestion de projet</h4>
+                            <p>Des réunions hebdomadaires avaient lieu avec l'entreprise C'PRO pour définir les besoins des clients, 
+                                mais aussi avec l'entreprise ATM pour définir les tâches.</p>
+				    		<p>Les tâches étaient réparties sous forme de sprints de 2 semaines 
+                                (<b class="orange-text text-accent-4">Méthode AGILE</b>)</p>
+				    		<p>A tour de rôle nous étions le manager de la petite équipe que nous formions (3 élèves ingénieurs).</p>
+                            
+                        </div>
+                    </div>
+                </p>
+            </li>
+
+            <li class="collection-item">
+                <div class="row">
+                    <img src="images/carriere/markem.jpg" class="responsive-image s2 m2 l2 col">
+                </div>
+                <span class="title"><h4>Stage d’audit et de restructuration de la salle du réseau informatique</h4></span>
+                <p class="center-align"> 
+                    <b>Markem-Imaje, Bourg-lès-Valence 26500, France<br></b>
+                    <a href="http://www.markem-imaje.fr/" target="_blank">www.markem-imaje.fr</a><br>
+                    <i class="material-icons small blue-text text-accent-4">date_range</i> 
+                    <em class="blue-text text-accent-4">Juin 2011 à Août 2011</em><br>
+                    <div class="row" style="padding:0">
+                        <a class="waves-effect waves-light btn orange accent-4 white-text  col l6 s6 offset-s3 offset-l3" 
+                            ng-click="vm.displayMarkem = !vm.displayMarkem" ng-if="!vm.displayMarkem">
+                            <i class="material-icons right">add</i> Voir détails
+                        </a>
+                        <a class="waves-effect waves-light btn orange accent-4 white-text col l6 s6 offset-s3 offset-l3"
+                            ng-click="vm.displayMarkem = !vm.displayMarkem" ng-if="vm.displayMarkem">
+                            <i class="material-icons right">remove</i> Réduire
+                        </a>
+                    </div>
+                    <div class="row" ng-if="vm.displayMarkem">
+                        <div class="col l12 m12 s12">
+                            <h4>Contexte</h4>                            
+                            <p>Il s'agissait d'un <b class="orange-text text-accent-4">stage technicien</b> 
+                                effectué durant la deuxième année de mon cusrus d'ingénieur.
+                            </p>
+							<p>Le but du projet était de comprendre l'architecture du réseau informatique de l'entreprise, puis de 
+							restructurer la salle réseau afin d'optimiser les maintenances, et diminuer les risques : 
+							cette salle étant le <b class="orange-text text-accent-4">« coeur » du réseau de MARKEM-IMAJE</b>, 
+                                un accès facilité est primordial, 
+							et une bonne organisation physique est importante pour un tel type de salle critique
+                            </p>
+                            <h4>Déroulement du projet</h4>
+                            <p>J'ai participé aux réunions d'équipe qui avaient lieu généralement en 
+                                <b class="orange-text text-accent-4">anglais</b> 
+                                (équipe de 6 personnes, travaillant aussi avec des collaborateurs d'autres filiales internationales). 
+                            </p>
+				    		<p>J'ai réalisé le planning d'action des tâches du projet, notamment grâce au logiciel 
+                                <b class="orange-text text-accent-4">Microsoft Project</b>.</p>
+				    		<p>Comprendre et modéliser l'architecture du réseau de l'entreprise 
+                                (Réseau très complexe, reliant différentes filiales, et un nombre très important d'utilisateurs 
+                                (600 rien qu'en France))</p>
+				    		<p>Le réseau a été entièrement modélisé en utilisant le logiciel 
+                                <b class="orange-text text-accent-4">Microsoft Visio</b>.</p>
+				    		<p>J'ai découvert et <b class="orange-text text-accent-4">appris le fonctionnement 
+                                de tous les protocoles utilisés</b> 
+				    		(fonctionnement des switchs, routeurs, VLAN, Firewalls, IPsec, VPN, DMZ, Trunks, HSRP...)</p>
+				    		<p>Ce projet a été également l'occasion de développer mon <b class="orange-text text-accent-4">autonomie</b>, 
+                                en trouvant des solutions par moi-même, ou grâce aux compétences d'autres salariés dans l'entreprise.
+                            </p>
+            
+                        </div>
+                    </div>
+                </p>
+            </li>
+            
+        </ul>
     </div>
 
     <div class="row">
@@ -260,8 +499,6 @@
                 </div>
             </div>
         </div>
-
-        
     </div>
 
     <div class="row">
@@ -279,232 +516,5 @@
         </div>
     </div>
 
-    
-    
-    
 </div>
-
-		
-		<div class="container" style="margin-top: 50px;">
-
-			
-			<div class="row" style="margin-top: 20px;">
-				<div class="col-lg-12">				    
-				
-					
-					<div class="bs-callout bs-callout-orange row">
-				    	<div class="col-lg-9">
-				    		<h3>Master 2 Management et Administration des entreprises</h3>
-				    		<p><img src="images/carriere/icon_calendar.png">  <i>Septembre 2013 à Février 2015</i></p>
-				    		
-				    		<div class="row">
-				    			<br>
-					    		<div id="div_button_iae_see_more" class="col-lg-2 col-lg-push-5">
-					    			<button class="btn orange-background-rp white"><b>Voir détails...</b></button>
-						    	</div>
-						    	<div id="div_button_iae_see_less" class="col-lg-2 col-lg-push-5" style="display:none;">
-						    		<button class="btn orange-background-rp white"><b>Voir moins</b></button>
-						    	</div>
-				    		</div>
-				    		
-				    	</div>
-				    	<div class="col-lg-3">
-					    	<div class="row">
-					    		<img class="col-lg-8 col-lg-push-2" style="height:150px; text-align:center;" alt="android_logo" src="images/carriere/img_iae.jpg">
-					    	</div>
-					    	<div class="row">
-				    			<p class="text-center">IAE Grenoble, Grenoble 38000, France</p>
-				    		</div>	
-				    	</div>
-				    	<div id="div_iae_description" class="col-lg-9" style="display:none;">
-				    		<p>
-					    		<ul>
-						    		<li>Gestion de projet</li>
-						    		<li><b class="orange">Management des équipes</b></li>
-						    		<li>Choix d’investissement</li>
-						    		<li><b class="orange">Supply Chain Management</b></li>
-						    		<li><b class="orange">Contrôle de gestion</b></li>
-						    		<li>Comptabilité financière</li>
-						    		<li>Achats</li>
-						    		<li><b class="orange">Business plan</b></li>
-						    		<li><b class="orange">Veille technologique</b></li>
-						    		<li>Communication</li>
-					    		</ul>
-							</p>
-				    	</div>
-				    	
-					</div>
-					
-					<div class="bs-callout bs-callout-orange row">
-				    	<div class="col-lg-9">
-				    		<h3>Baccalauréat Scientifique, option Mathématiques, Mention Bien</h3>
-				    		<p><img src="images/carriere/icon_calendar.png">  <i>Juin 2009</i></p>
-				    	</div>
-				    	<div class="col-lg-3">
-				    		<p class="text-center">Lycée Emile Loubet, Valence 26000, France</p>
-				    	</div>
-					</div>
-					
-				</div>
-			</div>
-			
-			<div class="row" style="margin-top: 50px;">
-				<div class="col-lg-12">
-					<h2 class="orange">Mes expériences professionnelles</h2>
-				    
-				    <div id="div_kapt_experience" class="bs-callout bs-callout-orange row">
-				    	<div class="col-lg-9">
-				    		<h3>Projet de fin d’études (stagiaire) : conception et développement du service touristique « 10 Things To See »</h3>
-				    		<p><img src="images/carriere/icon_calendar.png">  <i>Février 2014 à Juillet 2014</i></p>
-				    		
-				    		<div class="row">
-				    			<br>
-					    		<div id="div_button_kapt_see_more" class="col-lg-2 col-lg-push-5">
-					    			<button class="btn orange-background-rp white"><b>Voir détails...</b></button>
-						    	</div>
-						    	<div id="div_button_kapt_see_less" class="col-lg-2 col-lg-push-5" style="display:none;">
-						    		<button class="btn orange-background-rp white"><b>Voir moins</b></button>
-						    	</div>
-				    		</div>
-				    	</div>
-				    	<div class="col-lg-3">
-				    		<a href="http://kapt.mobi/" target="_blank"><img class="img-responsive" style="height:90px;" alt="android_logo" src="images/carriere/kapt.png"></a>
-				    		<p class="text-center">KAPT, Alixan 26300, France</p>
-				    		<a href="http://kapt.mobi/" target="_blank"><p class="text-center">www.kapt.mobi</p></a>
-				    	</div>
-				    	
-				    	
-				    	
-				    	<div id="div_kapt_description" class="col-lg-9" style="display:none;">
-				    		<h3>Développement Web</h3>
-				    		<a href="http://10thingstosee.com" target="_blank"><p>www.10thingstosee.com</p></a>
-				    		
-				    		J'ai conçu et développé l'application web qui est compatible avec les supports PC, tablettes et mobiles.<br>
-				    		Elle a été réalisée en utilisant le langage Python et s’appuie sur le <b class="orange">Framework Django.</b><br>
-				    		L’ergonomie et le design sont apportés par les technologies HTML5 et CSS3 (couplées au <b class="orange">Framework Bootstrap3</b>). Concernant cette partie graphique, j'ai été épaulé pour la réaliser, et elle n'a cessé d'évoluer depuis ma fin de stage.<br>
-				    		La base de données utilisée est de type PostgreSQL, et elle répertorie plus de <b class="orange">10000 lieux à visiter (objets complexes contenant énormément d'informations).</b><br><br>
-							
-							<a href="http://10thingstosee.com" target="_blank"><img src="images/carriere/10thingstosee.png" alt="Les 10 lieux à ne pas manquer autour de vous"></a>
-							
-							<h3>Application Android</h3>
-							<a href="https://play.google.com/store/apps/details?id=com.kapt.tenthingstosee" target="_blank"><p>Découvrir l'application Android</p></a>
-							
-							J'ai également réalisé <b class="orange">la base de l'application mobile ANDROID :</b> <br>
-							Création et utilisation de l'API pour récupérer les lieux, affichage de la liste de lieux, filtrage, et visualisation d'une fiche.<br><br>
-
-							<h3>Objectif du service</h3>
-							Ce service permet aux utilisateurs de retrouver les 10 lieux à ne pas manquer aux alentours d’une destination, 
-							et ce de manière non exhaustive, grâce <b class="orange">aux votes de la communauté.</b><br>
-							Il leur est proposé des fiches complètes sur chaque lieu, et ils peuvent <b class="orange">interagir 
-							avec l’application</b> en ajoutant de nouveaux points d’intérêts, en votant, ou en commentant des destinations.<br>
-							Ils peuvent également se créer un guide de séjour personnalisé.<br>
-							Toutes ces étapes sont soumises à un <b class="orange">système de modération</b> et un <b class="orange">mécanisme 
-							de détection des lieux en doublons</b> a également été mis en place.
-				    	</div>
-					</div>
-					
-					<div class="bs-callout bs-callout-orange row">
-				    	<div class="col-lg-9">
-				    		<h3>Projet industriel : Développement d’une suite logicielle pour les Ressources Humaines</h3>
-				    		<p><img src="images/carriere/icon_calendar.png">  <i>Janvier 2013 à Juillet 2013</i></p>
-				    		
-					    	<div class="row">
-				    			<br>
-					    		<div id="div_button_cpro_see_more" class="col-lg-2 col-lg-push-5">
-					    			<button class="btn orange-background-rp white"><b>Voir détails...</b></button>
-						    	</div>
-						    	<div id="div_button_cpro_see_less" class="col-lg-2 col-lg-push-5" style="display:none;">
-						    		<button class="btn orange-background-rp white"><b>Voir moins</b></button>
-						    	</div>
-				    		</div>
-			    		</div>
-				    		
-				    	<div class="col-lg-3">
-			    			<a href="http://www.cpro.fr/" target="_blank"><img  class="col-lg-10 col-lg-push-1" style="height:100px; text-align:center;" alt="android_logo" src="images/carriere/cpro.png"></a>
-			    			<p class="text-center">C'PRO Groupe, Valence 26000, France</p>
-			    			<a href="http://www.cpro.fr/" target="_blank"><p class="text-center">www.cpro.fr</p></a>
-				    	</div>
-				    	
-				    	<div id="div_cpro_description" class="col-lg-9" style="display:none;">
-				    		
-				    		<h3>Contexte</h3>
-				    		<p>Ce développement a été réalisé en collaboration avec l'entreprise <b class="orange">ATM</b>, 
-				    		qui aujourd'hui s'occupe de la commercialisation du produit. 
-				    		<b class="orange">C'PRO</b> était le premier client du logiciel.</p>
-				    		
-				    		<p>Le <b class="orange">Projet industriel</b> a une durée de 6 mois : il est accompli par une équipe de 3 élèves : donné par l'entreprise CPRO, 
-				    		il a été réalisé au sein d'un laboratoire de travail à l'ESISAR.</p>
-				    		
-				    		<h3>Développement Web</h3>
-				    		<a href="http://www.atm-consulting.fr/nos-offres/dynamic-rh/" target="_blank">Découvrez le logiciel DynamicRH</a>
-				    		<p>Le but était de le <b class="orange">Développement d’une suite logicielle R.H.</b> basée sur la solution <b class="orange">open-source Dolibarr</b></p>
-				    		<p>Nous avons réalisé <b class="orange">4 dossiers de spécification</b> d'une quinzaine de pages chacun, correspondant aux 4 modules que nous devions développer :</p>
-							<p>
-								<ul>
-									<li>Module de Gestion des Notes de Frais avec règles dynamiques</li>
-									<li>Module de Gestion des Absences des salariés</li>
-									<li>Module de Gestion des ressources de l'entreprise, et de leurs disponiblités</li>
-									<li>Module de Gestion des compétences des salariés, et bilans individuels</li>
-								</ul>
-							</p>
-							
-				    		<h3>Gestion de projet</h3>
-				    		<p>Des réunions hebdomadaires avaient lieu avec l'entreprise C'PRO pour définir les besoins des clients, mais aussi avec l'entreprise ATM pour définir les tâches.</p>
-				    		<p>Les tâches étaient réparties sous forme de sprints de 2 semaines (<b class="orange">Méthode AGILE</b>)</p>
-				    		<p>A tour de rôle nous étions le manager de la petite équipe que nous formions (3 élèves ingénieurs).</p>
-				    	</div>
-				    	
-					</div>
-					
-					<div class="bs-callout bs-callout-orange row">
-				    	<div class="col-lg-9">
-				    		<h3>Stage d’audit et de restructuration de la salle du réseau informatique</h3>
-				    		<p><img src="images/carriere/icon_calendar.png">  <i>Juin 2011 à Août 2011</i></p>
-				    		
-				    		<div class="row">
-				    			<br>
-					    		<div id="div_button_markem_see_more" class="col-lg-2 col-lg-push-5">
-					    			<button class="btn orange-background-rp white"><b>Voir détails...</b></button>
-						    	</div>
-						    	<div id="div_button_markem_see_less" class="col-lg-2 col-lg-push-5" style="display:none;">
-						    		<button class="btn orange-background-rp white"><b>Voir moins</b></button>
-						    	</div>
-				    		</div>
-				    		
-				    	</div>
-				    	<div class="col-lg-3">
-				    		<div class="row">
-				    			<a href="http://www.markem-imaje.fr/" target="_blank"><img  class="col-lg-8 col-lg-push-2" style="height:90px; text-align:center;" alt="android_logo" src="images/carriere/markem.jpg"></a>
-				    		</div>
-				    		<div class="row">
-				    			<p class="text-center">Markem-Imaje, Bourg-lès-Valence 26500, France</p>
-				    			<a href="http://www.markem-imaje.fr/" target="_blank"><p class="text-center">www.markem-imaje.fr</p></a>
-				    		</div>
-				    	</div>
-				    	
-				    	<div id="div_markem_description" class="col-lg-9" style="display:none;">
-				    		
-				    		<h3>Contexte</h3>
-				    		<p>Il s'agissait d'un <b class="orange">stage technicien</b> effectué durant la deuxième année de mon cusrus d'ingénieur.</p>
-							<p>Le but du projet était de comprendre l'architecture du réseau informatique de l'entreprise, puis de 
-							restructurer la salle réseau afin d'optimiser les maintenances, et diminuer les risques : 
-							cette salle étant le <b class="orange">« coeur » du réseau de MARKEM-IMAJE</b>, un accès facilité est primordial, 
-							et une bonne organisation physique est importante pour un tel type de salle critique</p>
-				    		
-				    		<h3>Déroulement du projet</h3>
-				    		<p>J'ai participé aux réunions d'équipe qui avaient lieu généralement en <b class="orange">anglais</b> (équipe de 6 personnes, travaillant aussi avec des collaborateurs d'autres filiales internationales). </p>
-				    		<p>J'ai réalisé le planning d'action des tâches du projet, notamment grâce au logiciel <b class="orange">Microsoft Project</b>.</p>
-				    		<p>Comprendre et modéliser l'architecture du réseau de l'entreprise (Réseau très complexe, reliant différentes filiales, et un nombre très important d'utilisateurs (600 rien qu'en France))</p>
-				    		<p>Le réseau a été entièrement modélisé en utilisant le logiciel <b class="orange">Microsoft Visio</b>.</p>
-				    		<p>J'ai découvert et <b class="orange">appris le fonctionnement de tous les protocoles utilisés</b> 
-				    		(fonctionnement des switchs, routeurs, VLAN, Firewalls, IPsec, VPN, DMZ, Trunks, HSRP...)</p>
-				    		<p>Ce projet a été également l'occasion de développer mon <b class="orange">autonomie</b>, en trouvant des solutions par moi-même, ou grâce aux compétences d'autres salariés dans l'entreprise.</p>
-				    		
-				    	</div>
-					</div>
-					
-				</div>
-			</div>
-			
-
 			

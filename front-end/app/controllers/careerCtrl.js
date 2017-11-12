@@ -24,6 +24,8 @@
 
         vm.displayEsisar = false;
         vm.displayIae = false;
+        vm.displayItce = false;
+        vm.displaySncf = false;
         vm.displayKapt = false;
         vm.displayCpro = false;
         vm.displayMarkem = false;

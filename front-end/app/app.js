@@ -7,9 +7,9 @@
 (function() {
     'use strict';
 
-    var app = angular.module('SiteRemi', ['ui.router', 'config.app', 'ui.select', 'checklist-model', 'angularMoment', 'ngHolder', 'ngSanitize', 'ui.uploader', 'LocalForageModule', 'ui.materialize']);
+    var app = angular.module('SiteRemi', ['ui.router', 'config.app', 'angularMoment', 'ngSanitize', 'ui.uploader', 'LocalForageModule', 'ui.materialize']);
 
-    app.config(function($stateProvider, $urlRouterProvider, $provide, $logProvider, appConfig, uiSelectConfig) {
+    app.config(function($stateProvider, $urlRouterProvider, $provide, $logProvider, appConfig) {
         $stateProvider
             .state('home', {
                 url: '/accueil',

@@ -1,5 +1,6 @@
 /* NEW CSS */
 $blueDark: #01579b;
+$grey: #9E9E9E;
 
 .color-footer{
     background-color: $blueDark !important;   
@@ -13,6 +14,10 @@ $blueDark: #01579b;
 .pink-blockquote{
     border-left: 5px solid #c51162;
 }
+.background-grey{
+    background-color: $grey;   
+}
+
 /* OLD CSS */
 
 .pointer-hover { 
@@ -54,7 +59,7 @@ $blueDark: #01579b;
 }
 
 .bluelight-background-rp {
-  background-color: #03a9f4;
+  background-color: #03a9f4 !important;
 }
 
 .pink-background-rp {

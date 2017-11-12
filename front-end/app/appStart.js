@@ -49,6 +49,7 @@
                     function(event, toState, toParams, fromState) {
                         console.log('stateChangeSuccess: from ' + fromState.name + ' to ' + toState.name + ' with params ' +
                         JSON.stringify(toParams));
+                        $window.scrollTo(0, 0);
                     });
             }
         }

@@ -34,11 +34,12 @@ Before you install and launch the app, you need some prerequisite:
 Once you have node installed, launch the following command:
 
 ```sh
-$ npm install -g bower
+$ npm install -g bower (avec npm en version 0.12.4, utiliser nvm for winfows pour installer : nvm install 0.12.4 64)
 ```
 
 ```sh
 $ npm install -g brunch
+$ npm i -g brunch@1 (pour être sûr d installer la version 1 sinon incompatible)
 ```
 
 You can now install Vagrant and VirtualBox, the installers can be downloaded on their websites:

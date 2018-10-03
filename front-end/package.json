@@ -21,5 +21,8 @@
     "ng-annotate-uglify-js-brunch": "^1.8.0",
     "sass-brunch": "^1.8.10",
     "version-brunch": "^1.0.1"
+  },
+  "dependencies": {
+    "nvm": "0.0.4"
   }
 }

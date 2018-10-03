@@ -1,6 +1,5 @@
 exports.config =
   modules:
-    definition: false
     wrapper: false
   paths:
     public: 'www'
@@ -14,7 +13,6 @@ exports.config =
       optimize: true
       sourceMaps: false
   notifications: ['info', 'warn', 'error']
-  notificationsTitle: 'Site de Rémi PRIVET'
   plugins:
     cleancss:
       restructuring: false

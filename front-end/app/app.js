@@ -58,6 +58,18 @@
                 data: {
                     auth: false
                 }
+            })
+            .state('lapayecgu', {
+                url: '/lapayecgu',
+                views : {
+                    'content@' : {
+                        templateUrl: 'views/lapayecgu.html?DIGEST',
+                        controller: 'lapayecguCtrl as vm'
+                    }
+                },
+                data: {
+                    auth: false
+                }
             });
 
         // if none of the above states are matched, use this as the fallback

@@ -70,6 +70,30 @@
                 data: {
                     auth: false
                 }
+            })
+            .state('edy', {
+                url: '/edycgu',
+                views : {
+                    'content@' : {
+                        templateUrl: 'views/edycgu.html?DIGEST',
+                        controller: 'edycguCtrl as vm'
+                    }
+                },
+                data: {
+                    auth: false
+                }
+            })
+            .state('nutriscore', {
+                url: '/nutriscorecgu',
+                views : {
+                    'content@' : {
+                        templateUrl: 'views/nutriscorecgu.html?DIGEST',
+                        controller: 'nutriscorecguCtrl as vm'
+                    }
+                },
+                data: {
+                    auth: false
+                }
             });
 
         // if none of the above states are matched, use this as the fallback

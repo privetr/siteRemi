@@ -83,6 +83,18 @@
                     auth: false
                 }
             })
+            .state('cmr', {
+                url: '/cmrcgu',
+                views : {
+                    'content@' : {
+                        templateUrl: 'views/cmrcgu.html?DIGEST',
+                        controller: 'cmrcguCtrl as vm'
+                    }
+                },
+                data: {
+                    auth: false
+                }
+            })
             .state('nutriscore', {
                 url: '/nutriscorecgu',
                 views : {
